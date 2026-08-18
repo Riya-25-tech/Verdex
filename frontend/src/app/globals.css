@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Verdex design system — light, premium fintech
+   Blue = primary · Green = healthy · Red = danger · Orange = attention
+   ============================================================ */
+:root {
+  --bg: #f6f8fc;
+  --bg-elev: #eef2f9;
+  --card: #ffffff;
+  --card-hover: #f4f7fe;
+  --border: #e6eaf2;
+  --border-strong: #d5dbe7;
+
+  --text: #0b1220;
+  --text-dim: #5b6b82;
+  --text-faint: #8a97ab;
+
+  --accent: #2563eb; /* blue-600 */
+  --accent-strong: #1d4ed8; /* blue-700 */
+  --accent-soft: #eef4ff;
+
+  --success: #16a34a;
+  --success-soft: #e9f8ef;
+  --danger: #e11d48;
+  --danger-soft: #fdecef;
+  --warn: #ea8a04;
+  --warn-soft: #fdf1de;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.1);
+  --shadow-blue: 0 8px 24px rgba(37, 99, 235, 0.18);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-dim: var(--text-dim);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warn: var(--warn);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.shadow-card {
+  box-shadow: var(--shadow);
+}
+.shadow-card-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle grid backdrop used on marketing sections */
+.grid-backdrop {
+  background-image: linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
