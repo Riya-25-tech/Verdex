@@ -14,7 +14,7 @@ liquidated to keep the protocol solvent.
 
 - 📖 **Live Documentation Website:** [https://verdex-docx.vercel.app/](https://verdex-docx.vercel.app/)
 - 📊 **Pitch Deck / Presentation:** [Verdex Presentation Slides (Google Drive)](https://drive.google.com/file/d/1CdN2VXauyupApHG7vHRpTOv70wOKF8RtFUhz3r_r978/view?pli=1)
-- 🌐 **Live Web Application:** [http://localhost:3000](http://localhost:3000)
+- 🌐 **Live Web Application:** [vercel](https://verdex-smoky.vercel.app/)
 - 📜 **Smart Contracts (Rust / Soroban):** [Pool Contract](contracts/pool) & [Collateral Manager](contracts/collateral_manager)
 
 ---
