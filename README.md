@@ -12,8 +12,8 @@ liquidated to keep the protocol solvent.
 
 ### 📌 Project Resources & Pitch Deck
 
+- 📖 **Live Documentation Website:** [https://verdex-docx.vercel.app/](https://verdex-docx.vercel.app/)
 - 📊 **Pitch Deck / Presentation:** [Verdex Presentation Slides (Google Drive)](https://drive.google.com/file/d/1CdN2VXauyupApHG7vHRpTOv70wOKF8RtFUhz3r_r978/view?pli=1)
-- 📖 **Documentation Site:** [`verdex-docx`](https://verdex-docx.vercel.app) *(Deployable to Vercel via `/verdex-docx`)*
 - 🌐 **Live Web Application:** [http://localhost:3000](http://localhost:3000)
 - 📜 **Smart Contracts (Rust / Soroban):** [Pool Contract](contracts/pool) & [Collateral Manager](contracts/collateral_manager)
 
