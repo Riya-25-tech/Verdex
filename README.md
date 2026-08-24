@@ -159,7 +159,7 @@ fund accounting, and vice versa.
 ---
 
 ## ✅ Level 4
-
+### Google sheet: [google sheet](https://docs.google.com/spreadsheets/d/1oEc8_FcwjcemBwU0VhbqO49qcvSExYeLTxDZDhC1bO0/edit?usp=sharing)
 ### 4.1 User onboarding & wallet interaction proof
 
 Verdex has been tested end-to-end with **12 independent Stellar testnet wallets**. Each wallet
